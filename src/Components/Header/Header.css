@@ -1,0 +1,121 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  background-color: #292e36;
+  color: #e3dfda;
+  padding: 1rem 2rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.call-button button {
+  background-color: transparent;
+  color: #e3dfda;
+  border: 2px solid #e1b168;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+.reservation-button button {
+  background-color: #e1b168;
+  color: #292e36;
+  border: 2px solid #e1b168;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+.custom-line {
+  border: none;
+  height: 1px;
+  background-color: #5c6168;
+}
+.custom-line-btm {
+  border: none;
+  border-bottom: 3px dotted #6c6760;
+  height: 1px;
+}
+
+.call-button button:hover,
+.reservation-button button:hover {
+  background-color: #e1b168;
+  color: #f3faf6;
+}
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-img img {
+  width: 30%;
+  height: auto;
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-right: 3rem;
+  cursor: pointer;
+  color: #e3dfda;
+}
+
+.navbar ul li:hover {
+  color: #b21b45;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons i {
+  color: #e3dfda;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #b21b45;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li {
+    margin: 0.5rem 0;
+  }
+}
