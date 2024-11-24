@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
+<<<<<<< HEAD
 INTERO
+=======
+Ayush
+>>>>>>> 9b7bcc2756b10eac69c71f1257136574cd0732af
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

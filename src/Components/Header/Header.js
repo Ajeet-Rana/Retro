@@ -1,4 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
+=======
+import "./Header.css";
+>>>>>>> 9b7bcc2756b10eac69c71f1257136574cd0732af
 import {
   FaInstagram,
   FaFacebook,
@@ -6,6 +10,7 @@ import {
   FaPinterest,
 } from "react-icons/fa";
 import HeroSection from "./HeroSection";
+<<<<<<< HEAD
 
 function Header() {
   return (
@@ -46,6 +51,40 @@ function Header() {
 
       <hr className="border-dotted border-t-4 border-gray-500 mx-6" />
 
+=======
+function Header() {
+  return (
+    <header className="header">
+      <div className="header-container">
+        <div className="call-button">
+          <button>Call - 123 456 789</button>
+        </div>
+        <div className="logo-img">
+          <img src="logo.png" alt="LOGO" />
+        </div>
+        <div className="reservation-button">
+          <button>Reservation</button>
+        </div>
+      </div>
+      <hr className="custom-line" />
+      <nav className="navbar">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Menu</li>
+          <li>Pages</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+        <div className="social-icons">
+          <FaInstagram />
+          <FaFacebook />
+          <FaTwitter />
+          <FaPinterest />
+        </div>
+      </nav>
+      <hr className="custom-line-btm" />
+>>>>>>> 9b7bcc2756b10eac69c71f1257136574cd0732af
       <HeroSection />
     </header>
   );

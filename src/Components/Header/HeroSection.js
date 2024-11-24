@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 
 const HeroSection = () => {
   return (
@@ -22,6 +23,23 @@ const HeroSection = () => {
           alt="Restaurant Ambience"
           className="max-w-[40%] rounded-lg shadow-lg"
         />
+=======
+import "./HeroSection.css"; // Custom CSS file
+
+const HeroSection = () => {
+  return (
+    <section className="hero-section">
+      <div className="hero-content">
+        <h1>Welcome to Restaurant</h1>
+        <p>
+          The people, food, and the prime locations make the perfect place for
+          good friends & family to come together and have a great time.
+        </p>
+        <button className="view-menu-btn">View Menu</button>
+      </div>
+      <div className="hero-image">
+        <img src="Hero.jpg" alt="Restaurant Ambience" />
+>>>>>>> 9b7bcc2756b10eac69c71f1257136574cd0732af
       </div>
     </section>
   );
